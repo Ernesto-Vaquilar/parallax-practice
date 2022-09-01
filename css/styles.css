@@ -6,9 +6,15 @@ main, section{
     background-position: center;
 }
 
+main{
+    background-image: url("https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-1.2.1");
+    background-position: top;
+}
+
 h1{
     font-family: 'Lobster', cursive;
     font-size: 8vw;
+    text-shadow: 0px 3px 3px #000;
 }
 
 section{
