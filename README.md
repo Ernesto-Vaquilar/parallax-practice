@@ -1,9 +1,9 @@
-# Bootstrap Template
+# Parallax Practice
 ## Description
-Bootstrap template is used for other projects as a boilerplate.
+This is an example of fixing the attachment of background images to create a parallax effect.
 
 ## Contributing
-Issue Tracker: github.com/Ernesto-Vaquilar/bootstrap-template/issues
+Issue Tracker: https://github.com/Ernesto-Vaquilar/parallax-practice/issues
 
 ## Licensing
 MIT
