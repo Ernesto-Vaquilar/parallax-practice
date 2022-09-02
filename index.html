@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Parallax Practice</title>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/8f95359a81.js" crossorigin="anonymous"></script>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,11 +21,12 @@
     />
     <!-- Custom CSS Stylesheet -->
     <link rel="stylesheet" href="./css/styles.css" />
+    <title>Parallax Practice</title>
   </head>
 
   <body>
     <!-- Navbar -->
-    <nav class="navbar fixed-top">
+    <nav class="navbar fixed-top" id="mainNav">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Navbar Brand</a>
         <button
@@ -178,6 +180,26 @@
     </section>
     <!-- End of Jumbotron Sections -->
 
+    <!-- Footer -->
+    <footer class="text-center text-light bg-dark py-2">
+      <h2 class="pt-2 mb-0">Contact</h2>
+      <nav class="navbar navbar-expand navbar-dark justify-content-center g-0 py-0">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.twitter.com"><i class="fa-brands fa-twitter fa-xl"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.facebook.com"><i class="fa-brands fa-facebook fa-xl"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com"><i class="fa-brands fa-instagram fa-xl"></i></a>
+          </li>
+        </ul>
+      </nav>
+      <p>&copy; 2022 Ernesto Vaquilar. Images: <a href="https://unsplash.com">Unsplash</a></p>
+    </footer>
+    <!-- End of Footer -->
+    
     <!-- Bootstrap JS Bundle -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
