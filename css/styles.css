@@ -6,8 +6,12 @@ main, section{
 }
 
 main{
-    background-image: url("https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-1.2.1");
+    background-image: url("https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1");
     background-position: top;
+}
+
+.box-opacity{
+    background-color: hsla(0, 0%, 0%, 0.75);
 }
 
 h1{
@@ -25,19 +29,23 @@ section p{
 }
 
 #section-one{
-    background-image: url("");
+    background-image: url("https://images.unsplash.com/photo-1437846972679-9e6e537be46e");
+    background-position: top;
 }
 
 #section-two{
-    background-image: url("");
+    background-image: url("https://images.unsplash.com/photo-1580677616212-2fa929e9c2cd");
+    background-position: left;
 }
 
 #section-three{
-    background-image: url("");
+    background-image: url("https://images.unsplash.com/photo-1530035415911-95194de4ebcc");
+    background-position: right;
 }
 
 #section-four{
-    background-image: url("");
+    background-image: url("https://images.unsplash.com/photo-1540294437416-5ac3b561d896");
+    background-position: top;
 }
 
 @media (min-width: 576px){
