@@ -35,17 +35,17 @@ section p{
 
 #section-two{
     background-image: url("https://images.unsplash.com/photo-1580677616212-2fa929e9c2cd");
-    background-position: left;
+    background-position: top;
 }
 
 #section-three{
     background-image: url("https://images.unsplash.com/photo-1530035415911-95194de4ebcc");
-    background-position: right;
+    background-position: center;
 }
 
 #section-four{
     background-image: url("https://images.unsplash.com/photo-1540294437416-5ac3b561d896");
-    background-position: top;
+    background-position: left;
 }
 
 @media (min-width: 576px){
